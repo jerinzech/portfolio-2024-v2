@@ -10,7 +10,7 @@ export default function Footer() {
 
 function FooterLayout() {
   return (
-    <div className="headerlayout bg-red-500 h-[2%] flex flex-row place-content-around">
+    <div className="headerlayout h-[2%] flex flex-row place-content-around">
       Footer
     </div>
   );

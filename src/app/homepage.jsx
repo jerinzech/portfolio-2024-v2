@@ -7,7 +7,10 @@ export default function Homepage() {
   return (
     <>
       <div className="homepageclass h-screen">
-        <Header />
+        <div className="bg-green-500 h-[10%] flex flex-row place-content-around">
+          <Header />
+        </div>
+
         <BentoBody />
         <Footer />
       </div>
